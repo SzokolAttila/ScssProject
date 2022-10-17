@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:ital,wght@1,100&display=swap");
+body {
+  background-color: lightgray;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  margin: -10px;
+  background-image: url("../img/banner.jpg");
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+
+p {
+  background-color: rgb(27, 27, 27);
+  color: lightgray;
+  padding: 10px 20px 10px 20px;
+  text-align: justify;
+  border-radius: 15px;
+}
+
+main {
+  width: 80%;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+  color: rgb(61, 43, 61);
+  text-align: center;
+  letter-spacing: 5px;
+  font-variant: small-caps;
+  font-size: 500%;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  margin: 0px;
+  font-family: "Cinzel", serif;
+}
+
+footer {
+  width: 100%;
+}
+footer p {
+  text-align: center;
+  background-color: rgb(61, 43, 61);
+  color: lightgray;
+  margin: -10px;
+  padding: 15px;
+  font-family: "Cinzel", serif;
+}/*# sourceMappingURL=style.css.map */
