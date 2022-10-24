@@ -1,60 +1,76 @@
 $banner: '../img/banner.jpg';
 $color-dark: rgb(90, 27, 90);
 $bg: rgb(61, 43, 61);
-$txtc: lightgray;
+$txtc: white;
 $bg-dark: rgb(27, 27, 27);
+$bg-light: rgb(189, 189, 189);
+$font: '../fonts/Raleway-VariableFont_wght.ttf';
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:ital,wght@1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:ital,wght@1,100&display=swap');
+@font-face {
+    font-family: Raleway;
+    src: url($font);
+}
 
 body{
-    background-color: $txtc;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cinzel', sans-serif;
+    background-color: $bg-light;
 }
 
 header{
-    margin: -10px;
     background-image: url($banner);
     height: 500px;
     background-position: center;
     background-size: cover;
 }
 
-p{
+.intro{
     background-color: $bg-dark;
     color: $txtc;
-    padding: 10px 20px 10px 20px;
-    text-align: justify;
     border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-main{
-    width: 80%;
-    padding: 20px;
-    margin-right: auto;
-    margin-left: auto;
+p{
+    color: black;
+    text-align: justify;
+    font-family: $font;
 }
 
 h1{
     color: $bg;
-    text-align: center;
     letter-spacing: 5px;
     font-variant: small-caps;
-    font-size: 500%;
-    padding-top: 75px;
-    padding-bottom: 50px;
-    margin: 0px;
+    font-size: 450%;
     font-family: 'Cinzel', serif;
+    font-weight: bold;
+}
+
+h2{
+    background-color: $bg;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: $txtc;
+    font-size: 250%;
+    font-family: 'Cinzel', serif;
+}
+
+figcaption{
+    background-color: $bg;
+    color: $txtc;
+    font-family: 'Montserrat', sans-serif;
 }
 
 footer{
     width: 100%;
     & p{
+        margin-top: 0px;
         text-align: center;
         background-color: $bg;
         color: $txtc;
-        margin: -10px;
         padding: 15px;
         font-family: 'Cinzel', serif;
+        border-radius: 0px;
     }
 }

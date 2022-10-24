@@ -1,53 +1,67 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:ital,wght@1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:ital,wght@1,100&display=swap");
+@font-face {
+  font-family: Raleway;
+  src: url("../fonts/Raleway-VariableFont_wght.ttf");
+}
 body {
-  background-color: lightgray;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Cinzel", sans-serif;
+  background-color: rgb(189, 189, 189);
 }
 
 header {
-  margin: -10px;
   background-image: url("../img/banner.jpg");
   height: 500px;
   background-position: center;
   background-size: cover;
 }
 
-p {
+.intro {
   background-color: rgb(27, 27, 27);
-  color: lightgray;
-  padding: 10px 20px 10px 20px;
-  text-align: justify;
+  color: white;
   border-radius: 15px;
+  font-family: "Montserrat", sans-serif;
 }
 
-main {
-  width: 80%;
-  padding: 20px;
-  margin-right: auto;
-  margin-left: auto;
+p {
+  color: black;
+  text-align: justify;
+  font-family: "../fonts/Raleway-VariableFont_wght.ttf";
 }
 
 h1 {
   color: rgb(61, 43, 61);
-  text-align: center;
   letter-spacing: 5px;
   font-variant: small-caps;
-  font-size: 500%;
-  padding-top: 75px;
-  padding-bottom: 50px;
-  margin: 0px;
+  font-size: 450%;
   font-family: "Cinzel", serif;
+  font-weight: bold;
+}
+
+h2 {
+  background-color: rgb(61, 43, 61);
+  font-variant: small-caps;
+  font-weight: bold;
+  color: white;
+  font-size: 250%;
+  font-family: "Cinzel", serif;
+}
+
+figcaption {
+  background-color: rgb(61, 43, 61);
+  color: white;
+  font-family: "Montserrat", sans-serif;
 }
 
 footer {
   width: 100%;
 }
 footer p {
+  margin-top: 0px;
   text-align: center;
   background-color: rgb(61, 43, 61);
-  color: lightgray;
-  margin: -10px;
+  color: white;
   padding: 15px;
   font-family: "Cinzel", serif;
+  border-radius: 0px;
 }/*# sourceMappingURL=style.css.map */
