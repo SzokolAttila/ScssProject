@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background-image: url("../img/banner.jpg");
+  background-image: url(../img/banner.jpg);
   height: 500px;
   background-position: center;
   background-size: cover;
@@ -39,7 +39,6 @@ h1 {
 }
 
 h2 {
-  background-color: rgb(61, 43, 61);
   font-variant: small-caps;
   font-weight: bold;
   color: white;
@@ -48,7 +47,6 @@ h2 {
 }
 
 figcaption {
-  background-color: rgb(61, 43, 61);
   color: white;
   font-family: "Montserrat", sans-serif;
 }
@@ -57,11 +55,6 @@ footer {
   width: 100%;
 }
 footer p {
-  margin-top: 0px;
-  text-align: center;
-  background-color: rgb(61, 43, 61);
   color: white;
-  padding: 15px;
   font-family: "Cinzel", serif;
-  border-radius: 0px;
 }/*# sourceMappingURL=style.css.map */

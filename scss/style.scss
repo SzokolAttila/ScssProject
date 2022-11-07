@@ -1,4 +1,3 @@
-$banner: '../img/banner.jpg';
 $color-dark: rgb(90, 27, 90);
 $bg: rgb(61, 43, 61);
 $txtc: white;
@@ -13,13 +12,14 @@ $font: '../fonts/Raleway-VariableFont_wght.ttf';
     src: url($font);
 }
 
+
 body{
     font-family: 'Cinzel', sans-serif;
     background-color: $bg-light;
 }
 
 header{
-    background-image: url($banner);
+    background-image: url(../img/banner.jpg);
     height: 500px;
     background-position: center;
     background-size: cover;
@@ -48,7 +48,6 @@ h1{
 }
 
 h2{
-    background-color: $bg;
     font-variant: small-caps;
     font-weight: bold;
     color: $txtc;
@@ -57,7 +56,6 @@ h2{
 }
 
 figcaption{
-    background-color: $bg;
     color: $txtc;
     font-family: 'Montserrat', sans-serif;
 }
@@ -65,12 +63,7 @@ figcaption{
 footer{
     width: 100%;
     & p{
-        margin-top: 0px;
-        text-align: center;
-        background-color: $bg;
         color: $txtc;
-        padding: 15px;
         font-family: 'Cinzel', serif;
-        border-radius: 0px;
     }
 }
