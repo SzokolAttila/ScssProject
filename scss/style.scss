@@ -1,11 +1,9 @@
-$color-dark: rgb(90, 27, 90);
 $bg: rgb(61, 43, 61);
 $txtc: white;
 $bg-dark: rgb(27, 27, 27);
 $bg-light: rgb(189, 189, 189);
 $font: '../fonts/Raleway-VariableFont_wght.ttf';
 
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:ital,wght@1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:ital,wght@1,100&display=swap');
 @font-face {
     font-family: Raleway;
@@ -44,10 +42,11 @@ h1{
     font-variant: small-caps;
     font-size: 450%;
     font-family: 'Cinzel', serif;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 h2{
+    background-color: $bg;
     font-variant: small-caps;
     font-weight: bold;
     color: $txtc;
@@ -65,10 +64,33 @@ footer{
     & p{
         color: $txtc;
         font-family: 'Cinzel', serif;
+        background-color: $bg;
     }
 }
 
-#card{
-    height: 510px;
-    border-radius: 15px;
+figure{
+    img{
+        display: block;
+        margin: auto;
+    }
+}
+
+span{
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+    color: $bg;
+    font-size: 120%;
+}
+
+.navbar{
+    background-color: $bg !important;
+}
+
+h5{
+    background-color: $bg; 
+    padding: 10px;
+}
+
+li a:active{
+    background-color: $bg !important;
 }

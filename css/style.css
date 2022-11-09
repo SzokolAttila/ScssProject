@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:ital,wght@1,100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:ital,wght@1,100&display=swap");
 @font-face {
   font-family: Raleway;
   src: url("../fonts/Raleway-VariableFont_wght.ttf");
@@ -35,10 +34,11 @@ h1 {
   font-variant: small-caps;
   font-size: 450%;
   font-family: "Cinzel", serif;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 h2 {
+  background-color: rgb(61, 43, 61);
   font-variant: small-caps;
   font-weight: bold;
   color: white;
@@ -57,4 +57,30 @@ footer {
 footer p {
   color: white;
   font-family: "Cinzel", serif;
+  background-color: rgb(61, 43, 61);
+}
+
+figure img {
+  display: block;
+  margin: auto;
+}
+
+span {
+  font-family: "Cinzel", serif;
+  font-weight: bolder;
+  color: rgb(61, 43, 61);
+  font-size: 120%;
+}
+
+.navbar {
+  background-color: rgb(61, 43, 61) !important;
+}
+
+h5 {
+  background-color: rgb(61, 43, 61);
+  padding: 10px;
+}
+
+li a:active {
+  background-color: rgb(61, 43, 61) !important;
 }/*# sourceMappingURL=style.css.map */
